@@ -1,0 +1,89 @@
+.cardPlan {
+  margin-left: 50px;
+  margin-top: 20vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #d0f6d43c;
+  width: 15rem;
+  border-radius: 10px;
+  border-bottom: 4px solid #000446;
+  box-shadow: 0 6px 30px rgba(207, 212, 222, 0.3);
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 50px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  transition: 0.6s;
+}
+
+.cardPlan:hover {
+  background-color: var(--primaryColor);
+}
+
+.cardPlan__planName {
+  font-size: var(--sizeSubtitles);
+  font-family: var(--fontSubtitles);
+  margin-top: 2vh;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.containerCardPlan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -40px;
+}
+
+.etiquet-price {
+  position: relative;
+  background: var(--secondaryColor);
+  width: 15.4rem;
+  padding: 0.2rem;
+  margin-left: 13px;
+  border-radius: 5px 5px 0 5px;
+  box-shadow: -3px 7px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.etiquet-price p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding-top: 0.4rem;
+  font-size: var(--sizeSubtitles);
+  font-family: var(--fontSubtitles);
+}
+
+.etiquet-price p:before {
+  content: "$";
+  margin-right: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.etiquet-price p:after {
+  content: "/ mensuales";
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.etiquet-price div {
+  position: absolute;
+  bottom: -23px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid #7b6e98;
+  border-bottom: 10px solid transparent;
+  border-right: 13px solid transparent;
+  z-index: 1;
+}
+
+.cardPlan__description {
+  margin-top: 3vh;
+  font-size: var(--sizeNormalText);
+  font-family: var(--fontSubtitles);
+}

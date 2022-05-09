@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Vollkorn:ital,wght@0,600;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+:root {
+  --fontTitles: "League Spartan", sans-serif;
+  --fontSubtitles: "Libre Baskerville", serif;
+  --fontQuote: Vollkorn;
+  --sizeTitles: 57px;
+  --sizeSubtitles: 24px;
+  --sizeNormalText: 17px;
+
+  --colorMainSection: #aff29e;
+  --primaryColor: #d0f6d4;
+  --secondaryColor: #d1bdfb;
+  --tertiaryColor: white;
+  --buttonColor: #b49de6;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100vw;
+}
+
+.container__firstBlock {
+  background-color: var(--tertiaryColor);
+  height: 90vh;
+  width: 40vw;
+}
+
+.container__secondBlock {
+  background: url("../assets/Dog.png");
+  background-repeat: no-repeat;
+  background-color: var(--colorMainSection);
+  background-size: 100vmin;
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 60vw;
+}
+
+.container__text {
+  position: absolute;
+  font-size: var(--sizeTitles);
+  width: 50%;
+  margin-left: 10%;
+  font-family: var(--fontTitles);
+}

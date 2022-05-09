@@ -1,0 +1,78 @@
+.AboutUs__section {
+  margin-top: 20vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutUs__section--row {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AboutUs__section--block1 {
+  background: url("../assets/dog7.png");
+  background-repeat: no-repeat;
+  background-size: 100vmin;
+  background-color: var(--secondaryColor);
+  background-position: right;
+  width: 45vw;
+  height: 65vh;
+}
+
+.AboutUs__section--block2 {
+  background: url("../assets/dog8.png");
+  background-repeat: no-repeat;
+  background-size: 100vmin;
+  background-color: var(--primaryColor);
+  background-position: left;
+
+  width: 45vw;
+  height: 65vh;
+}
+
+.AboutUs__section--block3 {
+  background: url("../assets/dog10.png");
+  background-repeat: no-repeat;
+  background-size: 100vmin;
+  background-position: right;
+  background-color: var(--secondaryColor);
+  width: 45vw;
+  height: 65vh;
+}
+
+.AboutUs__section--text {
+  text-align: center;
+  width: 55vw;
+  font-size: var(--sizeSubtitles);
+  font-family: var(--fontSubtitles);
+}
+
+.AboutUs__section--text p {
+  text-align: center;
+  width: 55vw;
+  font-size: var(sizeNormalText);
+  font-family: var(--fontSubtitles);
+}
+
+.textHide {
+  animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  50% {
+    opacity: 0.5;
+    height: 30px;
+  }
+  100% {
+    opacity: 1;
+  }
+}

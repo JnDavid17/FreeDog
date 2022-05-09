@@ -1,0 +1,63 @@
+.testimonialContainer {
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.testimonialCard {
+  text-align: center;
+  border-top: 8px solid var(--primaryColor);
+  padding: 38px;
+  box-shadow: 0 0 5px rgba(24, 24, 24, 0.15);
+  font-family: "Roboto", Arial, sans-serif;
+  margin: 15px 10px 10px;
+  max-width: 310px;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.testimonialCard__quote {
+  font-size: var(--sizeNormalText);
+  font-family: italic var(--fontQuote);
+}
+
+.testimonialCard__name{
+  font-size: var(--sizeSubtitles);
+  font-family:var(--fontSubtitles);
+}
+
+.testimonialCard__quoteMark {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: -35px;
+  border-radius: 50%;
+}
+
+.testimonialCard {
+  animation: move1 1s linear 0s;
+}
+
+@keyframes move1 {
+  0% {
+    transform: translate(-50px, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0);
+    opacity: 1;
+  }
+}
