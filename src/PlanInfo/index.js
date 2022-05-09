@@ -20,7 +20,7 @@ function PlanInfo(props) {
         <div className="cardPlan">
           <h1 className="cardPlan__planName"> Titulo plan </h1>
           <div className="etiquet-price">
-          <p>25.000</p>
+          <p>15.000</p>
           <div></div>
       </div>
           <h2 className="cardPlan__description"> Descripcion</h2>
@@ -30,31 +30,31 @@ function PlanInfo(props) {
         <div className="cardPlan">
           <h1 className="cardPlan__planName"> Titulo plan </h1>
           <div className="etiquet-price">
-          <p>25.000</p>
+          <p>20.000</p>
           <div></div>
       </div>
           <h2 className="cardPlan__description"> Descripcion</h2>
-          <button className="--elementButton">Elegir</button>
+          <button onClick={showFormUserButton} className="--elementButton">Elegir</button>
         </div>
   
         <div className="cardPlan">
           <h1 className="cardPlan__planName"> Titulo plan </h1>
           <div className="etiquet-price">
-          <p>25.000</p>
+          <p>35.000</p>
           <div></div>
       </div>
           <h2 className="cardPlan__description"> Descripcion</h2>
-          <button className="--elementButton">Elegir</button>
+          <button onClick={showFormUserButton} className="--elementButton">Elegir</button>
         </div>
   
         <div className="cardPlan">
           <h1 className="cardPlan__planName"> Titulo plan </h1>
           <div className="etiquet-price">
-          <p>25.000</p>
+          <p>45.000</p>
           <div></div>
       </div>
           <h2 className="cardPlan__description"> Descripcion</h2>
-          <button className="--elementButton">Elegir</button>
+          <button onClick={showFormUserButton} className="--elementButton">Elegir</button>
         </div>
       </div>
     );
